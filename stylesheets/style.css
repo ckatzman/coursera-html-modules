@@ -19,12 +19,12 @@ p {
   border: 1px solid black;
   border-collapse: all;
   background-color: #aab2b5;
-  width: 90%;
+  /*width: 90%;*/
   height: 150px;
   padding-left: 5px;
   padding-right: 5px;
   padding-top: 30px;
-  margin-right: auto;
+  margin-right: 20px;
   margin-left: auto;
   font-family: Helvetica;
   color: black;
