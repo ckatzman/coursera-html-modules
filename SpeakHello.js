@@ -32,11 +32,9 @@
 //REWRITE
 (function (window) {
   var helloSpeaker = {};
-  helloSpeaker.names = "";	
-  // var name = names;	
   var speakWord = "Hello ";
-  helloSpeaker.speak = function () {
-    console.log(speakWord + "_" + helloSpeaker.names + "_");	
+  helloSpeaker.speak = function (name) {
+    console.log(speakWord + name);	
   }
 
   window.helloSpeaker = helloSpeaker;

@@ -33,11 +33,9 @@
 //REWRITE
 (function (window) {
   var byeSpeaker = {};
-  byeSpeaker.names = "";	
-  // var name = names;	
   var speakWord = "Good Bye ";	
-  byeSpeaker.speak = function () {
-    console.log(speakWord + "_" + byeSpeaker.names + "_"); 
+  byeSpeaker.speak = function (name) {
+    console.log(speakWord + name); 
   }
 
   window.byeSpeaker = byeSpeaker;
